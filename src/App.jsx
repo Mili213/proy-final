@@ -6,7 +6,7 @@ import TodoList from './To-do/TodoList';
 
 const App = () => {
   const [todos, setTodos] = useState([]);
-
+//CARGAR TAREAS DESDE API
   useEffect(() => {
     const fetchTodos = async () => {
       try {
@@ -20,10 +20,10 @@ const App = () => {
 
     fetchTodos();
   }, []);
-
+//CONTADOR DE TAREA
   const todosCount = todos.length;
   const pendingTodosCount = todos.filter(todo => !todo.completed).length;
-
+//MANIPULO TAREAS
   const handleNewTodo = (newTodo) => {
     setTodos([...todos, newTodo]);
   };

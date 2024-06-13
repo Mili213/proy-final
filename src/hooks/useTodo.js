@@ -26,7 +26,7 @@ localStorage.setItem('todos',JSON.stringify(todos))
    }, [todos])
 
 
-
+//
    const handleNewTodo = todo =>{
     const action ={
         type: 'Add Todo',
