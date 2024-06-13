@@ -1,0 +1,74 @@
+.App {
+	text-align: center;
+	margin: 20px;
+  }
+  
+  h3 {
+	margin: 10px 0;
+  }
+  
+  .add-todo {
+	margin: 20px 0;
+  }
+  
+  .input-add, .input-update {
+	padding: 10px;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	color: #333;
+  }
+  
+  .btn-add {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .btn-add:hover {
+	background-color: #0056b3;
+  }
+  
+  ul {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  li {
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
+	color: #333;
+  }
+  
+  .btn-delete, .btn-update {
+	margin-left: 10px; 
+	padding: 5px 10px;
+	cursor: pointer;
+  }
+  
+  .btn-delete {
+	background-color: red;
+	color: white;
+	border: none;
+  }
+  
+  .btn-delete:hover {
+	background-color: darkred;
+  }
+  
+  .btn-update {
+	background-color: green;
+	color: white;
+	border: none;
+  }
+  
+  .btn-update:hover {
+	background-color: darkgreen;
+  }
+  
