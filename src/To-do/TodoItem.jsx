@@ -29,7 +29,7 @@ const TodoItem = ({ todo, handleUpdateTodo, handleDeleteTodo, handleCompleteTodo
   return (
     <li>
       <span onClick={() => handleCompleteTodo(todo.id)}>
-        <label htmlFor="" className='container-done'>{todo.done ? "✔️" : "❌"}</label>
+        <label htmlFor="" className='container-done'>{todo.completed ? "✔️" : "❌"}</label>
       </span>
       <TodoUpdate todo={todo} handleUpdateTodo={handleUpdateTodo} />
       <button className="btn-delete" onClick={() => handleDeleteTodo(todo.id)}>
